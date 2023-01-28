@@ -1,0 +1,20 @@
+:root {
+	--main-font: "Roboto", sans-serif;
+	--background-colour: #ffffff;
+	--main-text-colour: #212121;
+	--secondary-text-colour: #757575;
+	--heade-contact-colour: #757575;
+	--line-colour: #ececec;
+	--footer-bacground-colour: #2f303a;
+	--footer-text-colour: rgba(255, 255, 255, 0, 6);
+	--accent-colour: #2196f3;
+	--filter-button-bacground-colour: #f5f4fa;
+	--logo-colour: #000000;
+	--logo-second-colour: #2196f3;
+	--logo-third-colour: #ffffff;
+}
+body {
+	font-family: var(--main-font);
+	background-color: var(--background-colour);
+	font-size: ;
+}
