@@ -1,5 +1,6 @@
 :root {
 	--main-font: "Roboto", sans-serif;
+	--alternative-font: "Raleway", sans-serif;
 	--background-color: #ffffff;
 	--main-text-color: #212121;
 	--secondary-text-color: #757575;
@@ -19,8 +20,8 @@ body {
 	font-family: var(--main-font);
 	font-weight: 500;
 	font-size: 14px;
-	letter-spacing: 0, 03em;
-	line-height: 1, 14;
+	letter-spacing: 0.03em;
+	line-height: 1.14;
 	background-color: var(--background-color);
 	color: var(--main-text-color);
 }
@@ -45,10 +46,10 @@ body {
 	color: var(--accent-color);
 }
 .logo {
-	font-family: "Raleway", sans-serif;
+	font: var(--alternative-font);
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1, 19;
+	line-height: 1.19;
 	color: var(--logo-color);
 }
 .logo-accent {
@@ -103,7 +104,7 @@ h1 {
 	color: var(--logo-third-color);
 	text-align: center;
 }
-button {
+.button-main-page {
 	color: var(--logo-third-color);
 	width: 200px;
 	height: 50px;

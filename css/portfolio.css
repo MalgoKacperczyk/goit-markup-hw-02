@@ -1,5 +1,6 @@
 :root {
 	--main-font: "Roboto", sans-serif;
+	--alternative-font: "Raleway", sans-serif;
 	--background-color: #ffffff;
 	--main-text-color: #212121;
 	--secondary-text-color: #757575;
@@ -19,7 +20,7 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	letter-spacing: 0, 03em;
-	line-height: 1, 14;
+	line-height: 1.14;
 	background-color: var(--background-color);
 	color: var(--main-text-color);
 }
@@ -91,7 +92,7 @@ p {
 	color: var(--accent-color);
 }
 .logo {
-	font-family: "Raleway", sans-serif;
+	font: var(--alternative-font);
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1, 19;
