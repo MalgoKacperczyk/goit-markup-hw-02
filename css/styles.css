@@ -45,6 +45,16 @@ body {
 .top-navigation:focus {
 	color: var(--accent-color);
 }
+.top-navigation-main-page {
+	color: var(--main-text-color);
+	letter-spacing: 0.02em;
+}
+.top-navigation-main-page:hover {
+	color: var(--accent-color);
+}
+.top-navigation-main-page:focus {
+	color: var(--accent-color);
+}
 .logo {
 	font: var(--alternative-font);
 	font-weight: 700;
@@ -84,14 +94,16 @@ body {
 .bottom-adress:focus {
 	color: var(--accent-color);
 }
+.hero-section {
+	background-color: var(--h1-bacground-color);
+	height: 600px;
+	width: 1600px;
+}
 .title-main-page {
 	font-size: 44px;
 	font-weight: 900;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
-	background-color: var(--h1-bacground-color);
-	height: 600px;
-	width: 1600px;
 	color: var(--logo-third-color);
 	text-align: center;
 }
@@ -191,6 +203,9 @@ a {
 }
 ul {
 	list-style-type: none;
+}
+header {
+	background-color: var(--background-color);
 }
 footer {
 	background-color: var(--footer-bacground-color);
