@@ -1,1 +1,1 @@
-https://malgokacperczyk.github.io/goit-markup-hw-02/ git add
+https://malgokacperczyk.github.io/goit-markup-hw-02/
